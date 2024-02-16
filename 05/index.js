@@ -10,13 +10,7 @@ os armazenando em um novo array.
 Ao final, imprima a variável do array contendo apenas os números 
 pares no console.*/
 
-const original = [1, 4, 12, 21, 53, 88, 112];
-
-/*let pares = 0;
-while (pares < original.length) {
-    console.log(pares)
-    pares += 2;
-}*/
+const original = [2, 4, 12, 21, 54, 88, 81];
 
 for (let pares of original) {
     if (pares % 2 === 0) {
