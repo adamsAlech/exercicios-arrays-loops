@@ -10,7 +10,7 @@ ou "a"(maiúscula ou minúscula).
 Ao final, imprima a variável que guarda o array.
 */
 
-const nomes = ["Ana", "Joana", "Carlos", "amanda"];
+const nomes = ["Cna", "Joana", "Carlos", "Cmanda"];
 let encontrado = false;
 for (let nomesComA of nomes) {
     for (let i = 0; i < nomesComA.length; i++) {
@@ -25,5 +25,5 @@ for (let nomesComA of nomes) {
         }
     }
 } if (!encontrado === true) {
-    console.log('Aão á nomes com a letra A');
+    console.log('Não á nomes com a letra A');
 }
