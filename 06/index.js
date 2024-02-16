@@ -8,7 +8,7 @@ Depois, percorra este array e calcule a **soma dos números pares**
 presentes nesse array.
 */
 
-const numeros = [3, 4, 7, 8, 1, 6, 5, 10];
+const numeros = [3, 4, 7, 8, 20, 6, 5, 10];
 
 let somaPares = 0;
 
