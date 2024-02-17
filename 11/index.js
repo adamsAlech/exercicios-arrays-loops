@@ -22,7 +22,5 @@ for (let item of original) {
 
     } if (item > 100) {
         console.log(item);
-
-
     }
 }
