@@ -18,13 +18,15 @@ Enquanto houver elementos na **filaDeFora** e espaços disponíveis dentro do li
 Ao final, imprima todos os elementos da **filaDeDentro** e em seguida imprima todos os elementos da **filaDeFora**
 */
 
-const filaDeDentro = ["Jose", "Maria", "Joao"];
-const filaDeFora = ["Joana", "Roberta", "Marcos", "Felipe"];
+const filaDeDentro = ["Jose", "Maria"];
+const filaDeFora = ["Joana", "Roberta", "Marcos", "Felipe", 'Adams', 'Ronaldo'];
+
 
 for (let i = 0; i <= 4; i++) {
     if (filaDeDentro.length <= 4) {
-        filaDeDentro.push(filaDeFora[i]);
+        filaDeDentro.push(filaDeFora[0]);
         filaDeFora.shift();
+
     }
 }
 console.log(filaDeDentro);
