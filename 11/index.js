@@ -14,14 +14,15 @@ Para o array **original** abaixo:
 */
 
 
-const original = [5, 7, 13, 17, 26, 34, 118, 245];
+const original = [5, 7, 13, 17, 126, 14, 118, 245];
 
 for (let item of original) {
     if (item >= 10 && item <= 20) {
         console.log(item);
 
-    } else if (item > 100) {
+    } if (item > 100) {
         console.log(item);
-    }
 
+
+    }
 }
