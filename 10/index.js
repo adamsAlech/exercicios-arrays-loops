@@ -9,3 +9,9 @@ entre dois números desse array.
 */
 
 const numeros = [8, 11, 4, 1];
+
+let menor = Math.min.apply(Math, numeros);
+let maior = Math.max.apply(Math, numeros);
+
+let diferenca = maior - menor;
+console.log(diferenca);
