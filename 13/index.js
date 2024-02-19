@@ -14,8 +14,12 @@ dos disjuntores que estão ligados**, se possível, utilizar o conceito de **_tr
 
 const disjuntores = [false, false, true, false, false, true, false, false];
 
-for (let ligado of disjuntores) {
-    if (!ligado === false) {
-        console.log(ligado);
-    }
-}
+let disjuntoresLigados = [];
+
+let verificaDisjutoresLigados = disjuntores.indexOf(true);
+
+while (verificaDisjutoresLigados != -1) {
+    disjuntoresLigados.push(verificaDisjutoresLigados);
+    verificaDisjutoresLigados = disjuntores.indexOf(true, verificaDisjutoresLigados + 1);
+
+} console.log(disjuntoresLigados);
