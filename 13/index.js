@@ -12,7 +12,7 @@ dos disjuntores que estão ligados**, se possível, utilizar o conceito de **_tr
 
 */
 
-const disjuntores = [false, false, true, false, false, true, false, false];
+const disjuntores = [false, true, true, false, false, true, false, false, true, true];
 
 let disjuntoresLigados = [];
 
